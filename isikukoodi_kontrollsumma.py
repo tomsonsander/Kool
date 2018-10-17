@@ -28,5 +28,6 @@ def kontrollsumma(isikukood):
     
     print(kontrollnr)
     return(kontroll)
+print("hei")
 
 print(kontrollsumma(isikukood))
