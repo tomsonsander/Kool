@@ -1,4 +1,4 @@
-isikukood = "39410204235"
+isikukood = "39506250243"
 
 def kontrollsumma(isikukood):
     """tagastab isikukoodi kontrollsumma)"""
@@ -9,8 +9,10 @@ def kontrollsumma(isikukood):
 
     for i in range (0,10):
        sum1= sum1+ (int(ikood[i])*(i+1))
-    sum1 = sum1 + int(ikood[10])
-    kontrollnr= sum1 % 10
+    print(sum1)
+    sum1 = sum1 + int(ikood[9]) # viimane kaal on 1 sp liidab siin
+    print(sum1)
+    kontrollnr= sum1 % 11 
 
 
     if kontrollnr == 10:
