@@ -23,9 +23,9 @@ def kontrollsumma(isikukood):
     
             
     if kontrollnr == int(ikood[10]):
-        kontroll = 0
+        kontroll = True
     else:
-        kontroll = 1
+        kontroll = False
     
     
     return(kontroll)
